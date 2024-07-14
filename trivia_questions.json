@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of Israel?",
+      "answers": {
+        "1": "Tel Aviv",
+        "2": "Haifa",
+        "3": "Jerusalem",
+        "4": "Beer Sheva"
+      },
+      "correct_answer": "Jerusalem"
+    },
+    {
+      "question": "In which year was the State of Israel established?",
+      "answers": {
+        "1": "1947",
+        "2": "1948",
+        "3": "1949",
+        "4": "1950"
+      },
+      "correct_answer": "1948"
+    },
+    {
+      "question": "Who was the first Prime Minister of Israel?",
+      "answers": {
+        "1": "David Ben-Gurion",
+        "2": "Golda Meir",
+        "3": "Moshe Sharett",
+        "4": "Yitzhak Rabin"
+      },
+      "correct_answer": "David Ben-Gurion"
+    },
+    {
+      "question": "What is the largest sea bordering Israel?",
+      "answers": {
+        "1": "Red Sea",
+        "2": "Mediterranean Sea",
+        "3": "Dead Sea",
+        "4": "Sea of Galilee"
+      },
+      "correct_answer": "Mediterranean Sea"
+    },
+    {
+      "question": "What is the main official language of Israel?",
+      "answers": {
+        "1": "English",
+        "2": "Arabic",
+        "3": "Hebrew",
+        "4": "Russian"
+      },
+      "correct_answer": "Hebrew"
+    },
+    {
+      "question": "What is the national emblem of Israel?",
+      "answers": {
+        "1": "Star of David",
+        "2": "Menorah",
+        "3": "Israeli flag",
+        "4": "Western Wall"
+      },
+      "correct_answer": "Menorah"
+    },
+    {
+      "question": "What is the highest mountain in Israel?",
+      "answers": {
+        "1": "Mount Tabor",
+        "2": "Mount Carmel",
+        "3": "Mount Meron",
+        "4": "Mount Hermon"
+      },
+      "correct_answer": "Mount Hermon"
+    },
+    {
+      "question": "Who wrote the lyrics of Israel's national anthem?",
+      "answers": {
+        "1": "Chaim Nachman Bialik",
+        "2": "Naftali Herz Imber",
+        "3": "David Ben-Gurion",
+        "4": "Theodor Herzl"
+      },
+      "correct_answer": "Naftali Herz Imber"
+    },
+    {
+      "question": "What is the official currency of Israel?",
+      "answers": {
+        "1": "Dollar",
+        "2": "Euro",
+        "3": "New Shekel",
+        "4": "Lira"
+      },
+      "correct_answer": "New Shekel"
+    },
+    {
+      "question": "In which year was the peace treaty between Israel and Egypt signed?",
+      "answers": {
+        "1": "1967",
+        "2": "1973",
+        "3": "1979",
+        "4": "1982"
+      },
+      "correct_answer": "1979"
+    },
+    {
+      "question": "What is the name of Israel's main international airport?",
+      "answers": {
+        "1": "Ben Gurion Airport",
+        "2": "Sde Dov Airport",
+        "3": "Ramon Airport",
+        "4": "Haifa Airport"
+      },
+      "correct_answer": "Ben Gurion Airport"
+    }
+  ]
+}
