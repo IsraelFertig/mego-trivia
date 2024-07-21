@@ -42,6 +42,5 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Trivia Game CLI")
     parser.add_argument("--file_path", type=str, required=True, help="file path")
     parser.add_argument("--number_of_players", type=int, required=True, help="numbers of players")
-    parser.add_argument("--name", type=str, required=False, help="name of players")
     args = parser.parse_args()
     main()
