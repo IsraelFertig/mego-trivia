@@ -9,10 +9,9 @@ import argparse
 
 def main():
     display_instructions()
-    lst_dict_questions = load_questions("trivia_questions.json")
-    num_of_players = int(input("Please enter the number of players"))
+    lst_dict_questions = load_questions(args.file_path)
     players = []
-    for player in range(num_of_players):
+    for player in range(args.number_of_players):
         players.append(input("enter name player"))
     list_players_object = create_player_list(players)
     random.shuffle(list_players_object)
@@ -38,4 +37,11 @@ def main():
     print(f"You win Mr. {winner.name} you got {winner.score} points")
 
 
-main()
+# main()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Trivia Game CLI")
+    parser.add_argument("--file_path", type=str, required=True, help="file path")
+    parser.add_argument("--number_of_players", type=int, required=True, help="numbers of players")
+    parser.add_argument("--name", type=str, required=False, help="name of players")
+    args = parser.parse_args()
+    main()
